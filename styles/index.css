@@ -45,3 +45,13 @@ main .visual video {
     크게 설정하고 넘치게 하는 방법 */
 /* 3. 상대크기가 아닌 절대크기값(px) 크기를 설정해서 
     화면 해상도에 영향을 받지않는방법 */
+/* main 2-adver-bnr */
+main .adver_bnr {
+    background:url(../images/bnr.jpg);
+    height:300px;
+}
+main .adver_bnr .txt {}
+main .adver_bnr .txt p {}
+main .adver_bnr .txt h1 {}
+main .adver_bnr .txt .link {}
+main .adver_bnr .txt .link a {}
