@@ -50,8 +50,76 @@ main .adver_bnr {
     background:url(../images/bnr.jpg);
     height:300px;
 }
-main .adver_bnr .txt {}
-main .adver_bnr .txt p {}
-main .adver_bnr .txt h1 {}
-main .adver_bnr .txt .link {}
-main .adver_bnr .txt .link a {}
+main .adver_bnr .txt {
+    /* contents width px */
+    max-width:1200px; margin:0 auto;
+    padding-top:50px;
+}
+main .adver_bnr .txt p {
+    font-size: 1.75rem; letter-spacing: -0.035rem;
+}
+main .adver_bnr .txt h1 {
+    font-size: 3.125rem; font-weight: 700;letter-spacing: -0.0625rem;
+    margin:20px 0;
+}
+main .adver_bnr .txt .link {display:flex;}
+main .adver_bnr .txt .link a {
+    width: 150px; padding: 10px 0; margin-right:10px;
+    background:#000; color:#fff; border-radius:10px;
+    text-align: center;
+}
+/* 온라인서비스 */
+main #online_service {
+    background:url(../images/service_bg1.jpg) no-repeat;
+    background-position:right center;
+    background-size:80%;
+    padding-top:60px;
+    margin-top:103px;
+}
+main #online_service .txt {
+    background:#fff;
+    width:870px;
+    padding:54px 0 76px 150px;
+}
+main #online_service .txt h1 {
+    font-size: 3.125rem; font-weight: 700; letter-spacing: -0.0625rem;
+}
+main #online_service .txt p {
+    font-size: 1.25rem; 
+    width:70%; margin:30px 0;
+    line-height: 2.1875rem; /* 175% */ letter-spacing: -0.025rem;
+}
+main #online_service .txt .service_link {
+    display:inline-block;
+    border-radius: 1.25rem; color:#fff;
+    background:#000; padding: 15px 40px;
+    font-size: 1.75rem; letter-spacing: -0.035rem;
+}
+/* 매장서비스 */
+main #shop_service {
+    background:url(../images/service_bg2.jpg) no-repeat;
+    background-position:left center;
+    background-size:80%;
+    padding-top:60px;
+    margin-top:103px;
+    display: flex; flex-flow: row-reverse;
+}
+main #shop_service .txt {
+    background:#fff;
+    width:870px; text-align:right;
+    padding:54px 150px 76px 0; 
+}
+main #shop_service .txt h1 {    
+    font-size: 3.125rem; font-weight: 700; letter-spacing: -0.0625rem;
+}
+main #shop_service .txt p {
+    font-size: 1.25rem; 
+    margin:30px 0;
+    line-height: 2.1875rem; /* 175% */ letter-spacing: -0.025rem;
+}
+main #shop_service .txt .store_link {
+    display:inline-block;
+    border-radius: 1.25rem; color:#fff;
+    background:#000; padding: 15px 40px;
+    font-size: 1.75rem; letter-spacing: -0.035rem;
+}
