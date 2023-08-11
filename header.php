@@ -1,5 +1,5 @@
 <header>
-        <h1><a href="#"><img src="./images/logo.png" alt="GENTLEMONSTER"></a></h1>
+        <h1><a href="./index.html"><img src="./images/logo.png" alt="GENTLEMONSTER"></a></h1>
         <div class="right">
             <a href="#" class="lang">Shop in KR</a>
             <form action="#" method="get" id="searchFrm">
@@ -9,8 +9,8 @@
                     <button type="submit" id="searchBtn"><img src="./images/icon_search.png" alt="검색"></button>
                 </fieldset>
             </form>
-            <a href="#" id="login"><img src="./images/icon_login.png" alt="로그인"></a>
-            <a href="#" id="cart"><img src="./images/icon_cart.png" alt="장바구니"></a>
+            <a href="./login.html" id="login"><img src="./images/icon_login.png" alt="로그인"></a>
+            <a href="./review.html" id="cart"><img src="./images/icon_cart.png" alt="장바구니"></a>
             <a href="#" id="nav"><img src="./images/icon_menu.png" alt="메뉴열기"></a>
         </div>
         <!-- nav 클릭 시 open nav -->
@@ -35,13 +35,13 @@
             </div><!-- end swiper adver-->
             <!-- 내비게이션 -->
             <nav>
-                <a href="#">선글라스</a>
-                <a href="#">안경</a>
-                <a href="#">콜라보레이션</a>
-                <a href="#">스타일</a>
-                <a href="#">브랜드이슈</a>
+                <a href="./product_list.html">선글라스</a>
+                <a href="./product_list.html">안경</a>
+                <a href="./product_list.html">콜라보레이션</a>
+                <a href="./product_list.html">스타일</a>
+                <a href="./product_list.html">브랜드이슈</a>
                 <a href="#">매장보기</a>
-                <a href="#">수리서비스</a>
+                <a href="./product_list.html">수리서비스</a>
             </nav>
         </div>
     </header>
